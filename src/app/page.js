@@ -10,7 +10,7 @@ export default  async function Home({searchParams}) {
 
     if (!res.ok)
     {
-      throw new error ("failed to fetch the data  ")
+      throw new error("failed to fetch the data  ")
     }
 
 
